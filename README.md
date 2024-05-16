@@ -53,3 +53,17 @@ In get api body is not supported means data cannot be send through get api, So t
 
 Encryption
 Npm I bcrypt( uses # encryption method)
+
+
+11/5/24
+Environment variables
+System env
+Project env are used mostly
+
+Npm I dotenv
+Import ‘dotenv/config’
+Process.env.<name of variable>
+
+Otp through mail
+Package used is nodemailer
+Mailinater for temp mails

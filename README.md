@@ -67,3 +67,24 @@ Process.env.<name of variable>
 Otp through mail
 Package used is nodemailer
 Mailinater for temp mails
+
+16/5/24
+Cloudinary: used to handle images online
+Api have some content types, by default its json
+Multipart api type: bring request in chunks, e.g img will be breaked in parts and will be send to server in pieces not whole img is send
+Node js by default don’t handle multipart request, So we need to use 3rd party application named Multer
+Setup cloudnary
+Npm install cloudnary
+Follow documention
+
+Two ways to handle multer
+Read all the chunks makes a file and give it to server
+Server get chunks of image and store it in memory
+
+Images can be handled in 2 ways using multer
+•	Create a session in memory
+•	Make folder of image and save chunks in it, diskStorage, takes an object({destination, filename)}
+Cd(true,false) : through error
+Cd(false,true): send request to controller
+
+

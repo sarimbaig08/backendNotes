@@ -81,6 +81,41 @@ Two ways to handle multer
 Read all the chunks makes a file and give it to server
 Server get chunks of image and store it in memory
 
+
+Images can be handled in 2 ways using multer
+•	Create a session in memory
+•	Make folder of image and save chunks in it, diskStorage, takes an object({destination, filename)}
+Cb(true,false) : through error
+Cb(false,true): send request to controller
+Cb = callback works as next in api
+18/5/24
+Steps to config Cloudinary
+Npm I cloudinary
+cloudinary config file
+make cloudinary uploader
+call cloudinary in app.js file
+make api
+image comes in multipart so we have to initialize multer in our project
+npm I multer
+we want multer on some specific apis
+so make a middleware in image api
+after making api go to postman, body, formdata, write key same so passing in api, 
+now in api controller
+set cloudinaryuploader
+make fs.unlinkSync(req.file.path) : this is used to remove the coming image from server
+send response
+send image from front end
+multipart don’t go in object
+multipart api only support form data
+make a function of onchange in react app, which will run when file is selected
+make formData new object 
+form.append(key,value)
+now make axios api
+axios.post(url,data,header)
+
+
+
+
 Images can be handled in 2 ways using multer
 •	Create a session in memory
 •	Make folder of image and save chunks in it, diskStorage, takes an object({destination, filename)}

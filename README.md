@@ -131,3 +131,28 @@ web socket is used to modify http/https request to keep connection on, Header is
 
 polling concept in which every user request server to check if their any msg for them
 
+make client and server folder
+
+Server folder setup
+npm install socket.io
+go to initialization in socket.io docs
+get code of es module with express server
+import createServer from http in project (server folder)
+import server from socket.io in project (server folder)
+solve cors error 
+
+io.on -> wait for data to come, its a listener
+io.emit -> when data is send, send request to listener
+
+client folder setup
+npm install socket.io-client
+intitialize in project from docs
+
+study useMemo in react 
+
+socket.emit : to send msg to sender
+io.emit : to send to everyone
+socket.boradcast.emit : to send msg to everyone expect sender
+
+Room : when 2 or more person what to chat they are placed in a room and then joined with each other
+

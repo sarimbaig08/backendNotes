@@ -122,4 +122,12 @@ Images can be handled in 2 ways using multer
 Cd(true,false) : through error
 Cd(false,true): send request to controller
 
+23/may/24
+
+Socket.io (web sockets)
+
+when user sends a request server returns a response and the connection is closed,
+web socket is used to modify http/https request to keep connection on, Header is updated 
+
+polling concept in which every user request server to check if their any msg for them
 

@@ -156,3 +156,19 @@ socket.boradcast.emit : to send msg to everyone expect sender
 
 Room : when 2 or more person what to chat they are placed in a room and then joined with each other
 
+25/may/24
+
+Signup login through react and node
+
+-status code for apis
+-response.status(code no).json
+-error.response.data.message : this is used to handle error from front end to show the error coming from server
+Session handling
+-local storage and session storeage are not secure,because cross platform scripting is allowed on them
+-Cookies are much save because they are private, and its the system storage, can be handled from server or client side, if client and server application is on same domain then you can save your cookies directly from server, if on differnt domain then they are save from client side.
+
+Private apis
+-IIFE method which runs automatically when page loads
+-Token stored in local storage called Bearer token 
+-
+

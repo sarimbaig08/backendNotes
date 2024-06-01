@@ -175,5 +175,7 @@ Private apis
 1/6/24
 #Cron Job(node-cron)
 -schedule a task
--
+-dont run after deployed need to be configure separately on server
+
+
 

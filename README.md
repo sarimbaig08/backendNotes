@@ -1,5 +1,9 @@
 # backendNotes
 
+npm init -y
+npm i express
+start server by project name
+
 25/4/24
 Api responses are mostly json
 Res.json sending data in json
